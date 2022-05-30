@@ -34,12 +34,24 @@ window.addEventListener('load', function() {
     okButton.addEventListener('click', function() {
         let option = selector.value;
         if(option === '1') {
+            block.style.width = '150px';
+            block.style.height = '150px';
             block.style.borderRadius = '0';
             rotateDeg = 0;
             block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg}deg)`;
         } else if(option === '2') {
+            block.style.width = '150px';
+            block.style.height = '150px';
             block.style.borderRadius = '50%';
-        } else if(option === '3') {
+        }  else if(option === '3') {
+            block.style.width = '200px';
+            block.style.height = '100px';
+            block.style.borderRadius = '100px / 50px';
+            rotateDeg = 0;
+            block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg}deg)`;
+        } else if(option === '4') {
+            block.style.width = '150px';
+            block.style.height = '150px';
             block.style.borderRadius = '0';
             rotateDeg = 45;
             block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg}deg)`;

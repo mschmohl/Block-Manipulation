@@ -1,7 +1,20 @@
+body {
+    background-color: #f1faee;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     text-align: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+}
+.menu {
+    background-color: #a8dadc;
+    /* border: 2px dotted #264653; */
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 }
 
 .block  {
@@ -13,6 +26,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     color: #fff;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 }
 h3 {
     font-family: Arial, Helvetica, sans-serif;
